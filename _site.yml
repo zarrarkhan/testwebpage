@@ -1,0 +1,14 @@
+name: "my-website"
+
+navbar:
+  title: "My Website"
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: "About"
+      href: about.html
+
+output:
+  html_document:
+    theme: cosmo
+    css: "style.css"
